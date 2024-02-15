@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Price Prediction</title>
+    <link rel="stylesheet" href="sample.css">
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <img class="logo" src="btc.png" alt="bitcoin">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse nav-contaner" id="navbarNav">
+                    <ul class="navbar-nav mt-4 ps-5">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Introduction
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="Individual.html">Individuals</a></li>
+                              <li><a class="dropdown-item" href="bussiness.html">Businesses</a></li>
+                              <li><a class="dropdown-item" href="work.html">How it works</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Resources
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="resource.html">Resources</a></li>
+                              <li><a class="dropdown-item" href="document.html">Documentation</a></li>
+                            </ul>
+                          </li> 
+                          
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Prediction</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="training.html">Training</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            </div>
+        </div>
+        
+    </header>
+    <section class="page1">
+        <div class="container">
+            <div class="row">
+
+                <div class="hero">
+                <h1>How does Bitcoin Works</h1>
+                <p class="summary">This is a question often surrounded by confusion, so here's a quick explanation!.</p>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page3 mt-5 pb-5">
+      <div class="container">
+        <div class="two-column-layout">
+      
+          <div class="row two-column-row pt-5">
+            <div class="col-lg-6 pt-5">
+              <img class="column-img" src="new-user.svg" alt="icon">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="section-title anchorAf pt-5" style="color: orange;"><a href="#basics"></a>The basics for a new user</h2>
+              <p class="pt-5" style="font-size: 20px;">As a new user, you can <a href="/en/getting-started">get started</a> with Bitcoin without understanding the technical details. Once you've installed a Bitcoin wallet on your computer or mobile phone, it will generate your first Bitcoin address and you can create more whenever you need one. You can disclose your addresses to your friends so that they can pay you or vice versa. In fact, this is pretty similar to how email works, except that Bitcoin addresses should be used only once.</p>
+            </div>
+          </div>
+      
+          <div class="row two-column-row pt-5">
+            <div class="col-lg-6">
+              <h2 class="section-title anchorAf pt-5" style="color: orange;><a href="#balances"></a>Balances<span class="titlelight"> - block chain</span></h2>
+              <p class="pt-5" style="font-size: 20px;">The block chain is a <b>shared public ledger</b> on which the entire Bitcoin network relies. All confirmed transactions are included in the block chain. It allows Bitcoin wallets to calculate their spendable balance so that new transactions can be verified thereby ensuring they're actually owned by the spender. The integrity and the chronological order of the block chain are enforced with <a href="/en/vocabulary#cryptography">cryptography</a>.</p>
+            </div>
+            <div class="col-lg-6 pt-5">
+              <img class="column-img" src="blockchain.svg" alt="icon">
+            </div>
+          </div>
+      
+          <div class="row two-column-row pt-5">
+            <div class="col-lg-6 pt-5">
+              <img class="column-img" src="private-keys.svg" alt="icon">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="section-title anchorAf pt-5" style="color: orange;"><a href="#transactions"></a>Transactions<span class="titlelight"> - private keys</span></h2>
+              <p class="pt-5" style="font-size: 20px;">A transaction is <b>a transfer of value between Bitcoin wallets</b> that gets included in the block chain. Bitcoin wallets keep a secret piece of data called a <a href="/en/vocabulary#private-key"><i>private key</i></a> or seed, which is used to sign transactions, providing a mathematical proof that they have come from the owner of the wallet. The <a href="/en/vocabulary#signature"><i>signature</i></a> also prevents the transaction from being altered by anybody once it has been issued. All transactions are broadcast to the network and usually begin to be confirmed within 10-20 minutes, through a process called <a href="/en/vocabulary#mining"><i>mining</i></a>.</p>
+            </div>
+          </div>
+      
+          <div class="row two-column-row pt-5">
+            <div class="col-lg-6 pt-5">
+              <h2 class="section-title anchorAf pt-5" style="color: orange;><a href="#processing"></a>Processing<span class="titlelight"> - mining</span></h2>
+              <p class="pt-5" style="font-size: 20px;">Mining is a <b>distributed consensus system</b> that is used to <a href="/en/vocabulary#confirmation"><i>confirm</i></a> pending transactions by including them in the block chain. It enforces a chronological order in the block chain, protects the neutrality of the network, and allows different computers to agree on the state of the system. To be confirmed, transactions must be packed in a <a href="/en/vocabulary#block"><i>block</i></a> that fits very strict cryptographic rules that will be verified by the network. These rules prevent previous blocks from being modified because doing so would invalidate all the subsequent blocks. Mining also creates the equivalent of a competitive lottery that prevents any individual from easily adding new blocks consecutively to the block chain. In this way, no group or individuals can control what is included in the block chain or replace parts of the block chain to roll back their own spends.</p>
+            </div>
+            <div class="col-lg-6 pt-5">
+              <img class="column-img" src="mining.svg" alt="icon">
+            </div>
+          </div>
+      
+          <div class="row two-column-row pt-5">
+            <div class="col-lg-6">
+              <img class="column-img" src="paper.svg" alt="icon">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="section-title anchorAf pt-5" style="color: orange;""><a href="#readmore"></a>Going down the rabbit hole</h2>
+              <p class="pt-5" style="font-size: 20px;">This is just a short summary of Bitcoin. If you want to learn more of the details, you can <a href="/en/bitcoin-paper">read the original paper</a> that describes its design, the <a href="https://developer.bitcoin.org/">developer documentation</a>, or explore the <a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>.</p>
+            </div>
+          </div>
+      
+        </div>
+      
+        <!-- <div class="link-bar">
+          <h3 class="link-bar-title" id="readmore_2">Going down the rabbit hole</h3>
+          <p class="link-bar-description"></p>
+          <div class="row link-bar-row">
+            <div class="link-bar-item">
+              <a href="" class="link-bar-link"></a>
+              <p class="link-bar-text"></p>
+            </div>
+            <div class="link-bar-item">
+              <a href="" class="link-bar-link"></a>
+            </div>
+            <div class="link-bar-item">
+              <a href="" class="link-bar-link"></a>
+            </div>
+          </div>
+        </div> -->
+      </div>
+          
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <a class="logo-footer pt-3" href="#">
+                    <img class="logo"src="btc.png" alt="logo">
+                </a>
+                <div class="row footer-row pt-1">
+                    <div>
+                        <span class="footer-title">
+                            Support Bitcoin.org:
+                        </span>
+                        <a onclick="openDonationModal()" class="donate-btn">Donate</a>
+                        <p class="donate-text">
+                            <a class="donate-link" href="#">3E8ociqza9mZUSwGdsmAEMAoAxBK3FNDcd</a>
+                        </p>
+                    </div>
+                    <div class="row footermenu">
+                      <div class="col-12 col-md-6 col-lg-2">
+                        <div class="footermenu-item footermenu-introduction">
+                          <p class="footer-title">Introduction:</p>
+                          <ul class="footermenu-list">
+                          <li>
+                            <a href="#">Individuals</a>
+                          </li>
+                          <li>
+                            <a href="#">Businesses</a>
+                          </li>
+                          <li>
+                            <a href="#">Developers</a>
+                          </li>
+                          <li>
+                            <a href="#">Getting started</a>
+                          </li>
+                          <li>
+                            <a href="#">How it works</a>
+                          </li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-4 col-lg-2">
+                        <div class="footermenu-item footermenu-Resources">
+                          <p class="footer-title">Resources:</p>
+                          <ul class="footermenu-list">
+                          <li>
+                            <a href="#">Resources</a>
+                          </li>
+                          <li>
+                            <a href="#">Exchanges</a>
+                          </li>
+                          <li>
+                            <a href="#">Community</a>
+                          </li>
+                          <li>
+                            <a href="#">Documentation</a>
+                          </li>
+                          <li>
+                            <a href="#">Events</a>
+                          </li>
+                        </ul>
+                        </div>
+                      </div>
+                      
+                      <div class="col-12 col-md-6 col-lg-2">
+                        <div class="footermenu-item footermenu-Participate">
+                          <p class="footer-title">Participate:</p>
+                          <ul class="footermenu-list">
+                          <li>
+                            <a href="#">Support Bitcoin</a>
+                          </li>
+                          <li>
+                            <a href="#">Buy Bitcoin</a>
+                          </li>
+                          <li>
+                            <a href="#">Running a full node</a>
+                          </li>
+                          <li>
+                            <a href="#">Development</a>
+                          </li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-2">
+                        <div class="footermenu-item footermenu-Others">
+                          <p class="footer-title">Others:</p>
+                          <ul class="footermenu-list">
+                          <li>
+                            <a href="#">Avoid Scams</a>
+                          </li>
+                          <li>
+                            <a href="#">Legal</a>
+                          </li>
+                          <li>
+                            <a href="#">Privacy Policy</a>
+                          </li>
+                          <li>
+                            <a href="#">About bitcoin.org</a>
+                          </li>
+                          <li>
+                            <a href="#">Blog</a>
+                          </li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="pt-3" style="background-color:#13161f;color: aliceblue;">
+                        <h7>© Bitcoin Project 2009-2024 Released under the MIT license</h7>
+                      </div>  
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+ 
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

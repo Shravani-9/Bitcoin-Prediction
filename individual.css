@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+.logo{
+    background-color:white;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+}
+nav{
+    margin-bottom:40px;
+}
+.page1{
+    background-color: rgb(2, 2, 38);
+    color: white;
+    padding-top: 80px;;
+    height: 400px;
+}
+.hero h1{
+    font-size:40px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+.summary{
+    font-size:30px;
+    padding-top: 30px;
+    text-align: center;
+    color: #9d9d9d;
+}
+.login-btn{
+    padding-left: 250px;
+}
+.Register-btn{
+    background-color: #ffaa00;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.nav-contaner{
+    display: flex;
+    justify-content: space-between;
+}
+.small-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #ccc;
+    gap: 50px;
+    align-items: center;
+   
+
+}
+.small-box i{
+    color: gold;
+    text-align: center;
+    padding-left: 180px;
+    padding-top: 40px;
+    font-size:40px ;
+}
+.para{
+    display: flex;
+    justify-content: center;
+   
+}
+.page3{
+    padding-top: 60px;
+}
+.btn{
+    padding-top: 80px;
+}
+.footer{
+    position: relative;
+    padding-top: 60px;
+    text-align: left;
+    color:#9d9d9d;
+    background-color: #13161f;
+    z-index: 10;
+}
+.logo-footer{
+   display: block;
+   margin-bottom: 110px;
+   text-align: center;
+    
+}
+.footermenu{
+    justify-content: flex-end;
+    max-width:635px;
+    width: 100%;
+}
+.footermenu-item{
+    margin-right:60px;
+}
+.footermenu-list a{
+    text-decoration: none;
+    color: #9d9d9d;
+}
+.footer-title{
+    font-size:100%;
+    color:#FFFFFF;
+    text-align: left;
+    line-height:52px;
+    font-weight:600;
+}
+img{
+    margin-top: 10px;
+}
